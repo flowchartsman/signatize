@@ -14,10 +14,6 @@ import (
 
 func main() {
 	log.SetFlags(0)
-	l := license.MakeUnlicensedKey()
-	l.CustomerName = "Andy Walker"
-	l.Tier = license.LicenseTierCommunity
-	println(license.SetLicenseKey(l.ToString()).Error())
 
 	cwd, err := os.Getwd()
 	if err != nil {
