@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"github.com/unidoc/unidoc/common/license"
 	"log"
 	"os"
 	"path/filepath"
